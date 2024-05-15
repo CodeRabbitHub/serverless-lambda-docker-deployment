@@ -42,21 +42,14 @@ This Dockerfile configuration utilizes the AWS Lambda Python runtime image from 
 ## Step 4: Set Up AWS Lambda with Docker
 
 1. **Create an AWS ECR Repository**: Establish an Amazon Elastic Container Registry (ECR) repository to store your Docker image, providing a centralized location for managing and deploying container images securely.
-   
 2. **Tag and Push Docker Image to ECR**: After creating the repository, tag your Docker image appropriately and push it to the ECR repository, involving authentication with your AWS credentials and pushing the image to the designated ECR repository.
-   
 3. **Create a Lambda Function Using Docker Image**: With the Docker image successfully stored in the ECR repository, proceed to create a Lambda function utilizing this image, configuring Lambda to pull the Docker image from ECR and execute it as a serverless function, enabling seamless integration with AWS Lambda's serverless environment.
 
 ### Step 5: Setting Up API Gateway
 
-1. **Create a New API**:
-   - Navigate to the API Gateway console and create a new HTTP API, defining a route (e.g., `/predict`).
-   
-2. **Integrate the Lambda Function**:
-   - Within the `/predict` route, set up an integration with the previously created Lambda function.
-   
-3. **Deploy the API**:
-   - After configuration and testing, deploy the API, noting the endpoint URL for accessing your API.
+1. **Create a New API**: Navigate to the API Gateway console and create a new HTTP API, defining a route (e.g., `/predict`).
+2. **Integrate the Lambda Function**: Within the `/predict` route, set up an integration with the previously created Lambda function.
+3. **Deploy the API**: After configuration and testing, deploy the API, noting the endpoint URL for accessing your API.
 
 
 
