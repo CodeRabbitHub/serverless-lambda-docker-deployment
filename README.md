@@ -19,8 +19,6 @@ Outlines a streamlined method for deploying containerized applications on AWS La
 Deploying an ML model using FastAPI, Docker, and AWS Lambda with API Gateway involves several steps. Below is a comprehensive guide to help you through this process.
 
 
-<center><img src="https://postimg.cc/144vrBZc"/></center>
-
 ## Step 1: Train Your Model
 
 Utilizing the Iris classification dataset, a Support Vector Machine (SVM) classifier was trained for model development. The resultant model was saved as a pickle file within the designated "artifacts" directory. The training script can be found in `train.py`.
