@@ -1,6 +1,6 @@
-# serverless-lambda-docker-deployment
-Outlines a streamlined method for deploying containerized applications on AWS Lambda, facilitating serverless computing within Dockerized environments.
+# Serverless Lambda Docker Deployment
 
+This guide presents a streamlined method for deploying containerized applications on AWS Lambda, facilitating serverless computing within Dockerized environments. Deploying an ML model using FastAPI, Docker, and AWS Lambda with API Gateway involves several steps. Below is a comprehensive guide to help you through this process.
 
 ## Folder structure
 ```
@@ -15,9 +15,6 @@ Outlines a streamlined method for deploying containerized applications on AWS La
     └── requirements.txt
     └── train.py
 ```
-
-Deploying an ML model using FastAPI, Docker, and AWS Lambda with API Gateway involves several steps. Below is a comprehensive guide to help you through this process.
-
 
 ## Step 1: Train Your Model
 
