@@ -67,6 +67,7 @@ def check_health():
     return {"status": "ok"}
 
 
+# Preditcion endpoint
 @app.post("/predict")
 async def predict(model_input: ModelInput):
     data = model_input.model_dump()
