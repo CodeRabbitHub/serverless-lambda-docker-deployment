@@ -1,5 +1,7 @@
 # Streamlined Serverless Deployment of ML Application with FastAPI, AWS Lambda, Docker, and API Gateway
 
+<div style="text-align:center"><img src="artifacts/fastapi_deployment_aws.png" /></div>
+
 This guide presents a streamlined method for deploying containerized applications on AWS Lambda, facilitating serverless computing within Dockerized environments. Deploying an ML model using FastAPI, Docker, and AWS Lambda with API Gateway involves several steps. Below is a comprehensive guide to help you through this process.
 
 ## Folder structure
